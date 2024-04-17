@@ -1,0 +1,138 @@
+/* Universal styles */
+
+*{
+    /* border: 1px solid red; */
+    margin:0 auto;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 60px;
+}
+
+/* General rules */
+
+h1{
+    color: black;
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 300;
+
+}
+
+h2{
+    color: black;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+section{
+    max-width: 1400px;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+/* Colors section */
+
+.colors{
+    padding:30px;
+}
+
+.colorname{
+    display: inline-block;
+}
+
+.colorname p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+span{
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.box{
+    height:225px;
+    width:225px;
+    margin-bottom: 4px;
+}
+
+.nyanza{
+    background-color: #D6F6DD;
+}
+.periwinkle{
+    background-color:#DAC4F7;
+}
+.salmon-pink{
+    background-color: #F4989C;
+}
+.dun{
+    background-color: #EBD2B4;
+}
+.non-photo-blue{
+    background-color: #ACECF7;
+}
+
+
+/* Fonts section */
+
+.fonts-container{
+    padding:30px;
+    display: block;  
+    font-size: 26px; 
+}
+
+.font-type{
+    margin-bottom: 30px;
+
+}   
+
+.font-type p:first-of-type{
+    font-weight: 300;
+}
+
+.font-type p:last-of-type{
+    font-weight: 500;
+}
+
+.oswald{
+    font-family: Oswald;
+}
+
+.ubuntu{
+    font-family: Ubuntu;
+}
+
+.lato{
+    font-family: Lato;  
+}
+
+
+/* Styles section */
+
+.styles-container div{
+    margin-bottom: 30px;
+}
+
+.styles-container h2{
+    margin-bottom: 0px;
+}
+
+ul{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+}
